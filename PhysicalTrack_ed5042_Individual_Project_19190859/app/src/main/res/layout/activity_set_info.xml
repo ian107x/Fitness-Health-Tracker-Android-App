@@ -1,0 +1,165 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.physicaltrack__ed5042_individual_project_19190859.MainActivity" >
+
+        <TextView
+            android:id="@+id/instructiontext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setinfoinstructiontext"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/setweight"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="match_parent"
+                android:text="@string/setweightbuttontext">
+
+            </Button>
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal">
+
+            </EditText>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_height="match_parent"
+                android:autoSizeTextType="uniform"
+                android:text="@string/kgtext"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="275dp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/setheight"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="match_parent"
+                android:text="@string/setheightbuttontext">
+
+            </Button>
+            <EditText
+                android:id="@+id/height"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal">
+
+            </EditText>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_height="match_parent"
+                android:autoSizeTextType="uniform"
+                android:text="@string/cmtext"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/agebutton"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="match_parent"
+                android:text="@string/setagebuttontext">
+
+            </Button>
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="match_parent"
+                android:inputType="number">
+
+            </EditText>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="match_parent"
+                android:autoSizeTextType="uniform"
+                android:text="@string/yearstext"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/setgender"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="@string/setgenderbuttontext">
+
+            </Button>
+
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:entries="@array/gender"
+                android:entryValues="@array/gender"
+                android:layout_height="match_parent"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            >
+
+            <Button
+                android:id="@+id/returntomain"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:text="@string/returntomainbuttontext">
+
+            </Button>
+            <Button
+                android:id="@+id/viewinfo"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:text="@string/viewinfoactivitybuttontext">
+
+            </Button>
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">PhysicalTrack_ed5042_Individual_Project_19190859</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="maininstructiontext">You can update your physical info, view your physical info, or use a pedometer to track your steps</string>
+    <string name="setinfoinstructiontext">You can set your physical information here</string>
+    <string name="getinfoinstructiontext">You can get your physical information, BMI and BMR here. Dummy data is provided so that you can test functionality first.</string>
+    <string name="pedometerinstructiontext">You can use the pedometer here, and set or unset a daily step count reset, which occurs at 9am every day. You can also display your total step count here</string>
+
+    <string name="setinfoactivitybuttontext">Set User Info</string>
+    <string name="viewinfoactivitybuttontext">View User Info</string>
+    <string name="usepedometeractivitybuttontext">Use the pedometer</string>
+    <string name="returntomainbuttontext">Return to the main screen</string>
+    <string name="menutext">Set Your name</string>
+
+    <string name="setweightbuttontext">Set Weight</string>
+    <string name="setheightbuttontext">Set Height</string>
+    <string name="setagebuttontext">Set Age</string>
+    <string name="setgenderbuttontext">Set Gender</string>
+
+    <string name="confirmgendertext">Gender Has Been Set.</string>
+    <string name="confirmheighttext">Height Has Been Set.</string>
+    <string name="confirmweighttext">Weight Has Been Set.</string>
+    <string name="confirmagetext">Age Has Been Set.</string>
+
+
+    <string name="kgtext">KG</string>
+    <string name="cmtext">CM</string>
+    <string name="yearstext">Years</string>
+
+    <string name="startpedometertext">Start Pedometer</string>
+    <string name="stoppedometertext">Stop Pedometer</string>
+    <string name="startreceivertext">Start Daily Step Count Reset</string>
+    <string name="stopreceivertext">Stop Daily Step Count Reset</string>
+
+    <string name="startreceivernote">Daily Step Reset Started</string>
+    <string name="stopreceivernote">Daily Step Reset Stopped</string>
+    <string name="receivermessage">Step count has been reset!!</string>
+    <string name="getstepsbuttontext">Get total steps</string>
+
+    <string name="getweightbuttontext">Get Weight</string>
+    <string name="getheightbuttontext">Get Height</string>
+    <string name="getagebuttontext">Get Age</string>
+    <string name="getbmibuttontext">Get BMI</string>
+    <string name="getbmrbuttontext">Get BMR</string>
+    <string name="getgenderbuttontext">Get Gender</string>
+
+    <string name="weightdefaultmessage">Weight will be displayed here</string>
+    <string name="heightdefaultmessage">Height will be displayed here</string>
+
+    <string name="bmidefaultmessage">BMI will be displayed here</string>
+    <string name="bmrdefaultmessage">BMR will be displayed here. This is the minimum number of calories required for basic body function at rest.</string>
+    <string name="genderdefaultmessage">Gender will be displayed here</string>
+    <string name="agedefaultmessage">Age will be displayed here.</string>
+
+    <string name="weightdisplay">Your weight is: </string>
+    <string name="heightdisplay">Your height is: </string>
+    <string name="bmrdisplay">Your bmr is: </string>
+
+    <string name="bmidisplay">Your BMI is: </string>
+    <string name="bmiobese">You are obese.</string>
+    <string name="bmioverweight">You are overweight.</string>
+    <string name="bminormal">Your BMI is normal.</string>
+    <string name="bmiunderweight">You are underweight.</string>
+    <string name="genderdisplay">Your gender is: </string>
+    <string name="agedisplay">Your age is: </string>
+    <string name="caloriestext">Calories needed to maintain weight with light exercise, 1 to 3 times a week: </string>
+
+
+    <string name="sharedprefphysinfo">s physical info</string>
+    <string name="sharedprefpedometertext">s Pedometer</string>
+    <string name="view">View</string>
+    <string name="set">Set</string>
+    <string name="use">Use</string>
+    <string name="stepdefaulttext">Your total step count and calories burned will display here when the button below is clicked</string>
+    <string name="stepmessage">Your total step count is: </string>
+    <string name="caloriemessage">Total Calories Burned: </string>
+    <string name="pedometerstepcount">0</string>
+
+
+
+
+</resources>

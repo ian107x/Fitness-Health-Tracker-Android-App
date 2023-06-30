@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.physicaltrack__ed5042_individual_project_19190859.MainActivity" >
+
+
+        <TextView
+            android:id="@+id/getinfoinstructiontext"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text = "@string/getinfoinstructiontext"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp">
+
+            <Button
+                android:id="@+id/getweight"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="@string/getweightbuttontext"/>
+
+            <TextView
+                android:id="@+id/weightdisplay"
+
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/weightdefaultmessage"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp">
+
+            <Button
+                android:id="@+id/getheight"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="@string/getheightbuttontext"/>
+
+            <TextView
+                android:id="@+id/heightdisplay"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="@string/heightdefaultmessage"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="225dp">
+
+            <Button
+                android:id="@+id/getbmi"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="@string/getbmibuttontext"/>
+
+            <TextView
+                android:id="@+id/bmidisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="@string/bmidefaultmessage" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="325dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp">
+
+            <Button
+                android:id="@+id/getbmr"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="@string/getbmrbuttontext" />
+
+            <TextView
+                android:id="@+id/bmrdisplay"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="@string/bmrdefaultmessage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="425dp">
+
+            <Button
+                android:id="@+id/getgender"
+                android:text="@string/getgenderbuttontext"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/genderdisplay"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="@string/genderdefaultmessage"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp">
+
+            <Button
+                android:id="@+id/getage"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="@string/getagebuttontext"/>
+
+            <TextView
+                android:id="@+id/agedisplayfield"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="@string/agedefaultmessage"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+
+
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/returntomainbutton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="@string/returntomainbuttontext" />
+
+            <Button
+                android:id="@+id/setinfobutton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_alignParentRight="true"
+                android:text="@string/setinfoactivitybuttontext" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

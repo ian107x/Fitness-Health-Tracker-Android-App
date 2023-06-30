@@ -1,0 +1,106 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.physicaltrack__ed5042_individual_project_19190859.MainActivity" >
+
+        <TextView
+            android:id="@+id/instructiontext"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:autoSizeTextType="uniform"
+            android:text="@string/pedometerinstructiontext" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp">
+
+            <TextView
+                android:id="@+id/stepcounter"
+
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="99dp"
+
+                android:autoSizeTextType="uniform"
+                android:text="@string/pedometerstepcount" />
+            <TextView
+                android:id="@+id/stepmessage"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="99dp"
+                android:autoSizeTextType="uniform"
+                android:text="@string/stepdefaulttext"/>
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="400dp">
+
+        <Button
+            android:id="@+id/startpedometer"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:text="@string/startpedometertext"/>
+
+        <Button
+            android:id="@+id/getsteps"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:text="@string/getstepsbuttontext"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp">
+
+            <Button
+                android:id="@+id/startreceiver"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="@string/startreceivertext"/>
+
+            <Button
+                android:id="@+id/stopreceiver"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text="@string/stopreceivertext"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp">
+
+            <Button
+                android:id="@+id/returntomainbutton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/returntomainbuttontext"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
